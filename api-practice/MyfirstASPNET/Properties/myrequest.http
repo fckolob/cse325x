@@ -1,0 +1,28 @@
+GET http://localhost:5140/
+
+###
+
+GET http://localhost:5140/todos
+
+###
+
+POST http://localhost:5140/todos
+content-type: application/json
+
+{
+    "id": 2,
+    "name": "Write another demo", 
+    "dueDate": "2026-12-31",
+    "isComplete": false
+
+}
+
+###
+
+GET http://localhost:5140/todos/2
+
+###
+
+DELETE http://localhost:5140/todos/2
+
+###
