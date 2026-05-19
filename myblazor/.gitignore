@@ -1,0 +1,77 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.generated.cs
+*.g.cs
+*.g.i.cs
+*.designer.cs
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotNet build outputs
+*.dll
+*.exe
+*.pdb
+*.app
+*.appref-ms
+*.dll.config
+*.cache
+
+# Publish output
+publish/
+*.Publish.xml
+*.pubxml.user
+
+# ASP.NET temporary files
+*.aspnetcore.temp
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/packages/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# User-specific files created by Visual Studio
+*.rsuser
+*.vcxproj.user
+*.vcxproj.filters.user
+
+# Static web assets from build
+**/wwwroot/**/*.staticwebassets.*
+**/wwwroot/**/*.bundle.scp.css
+
+# Blazor and Razor generated files
+**/obj/**/*
+**/bin/**/*
+
+# Others
+*.log
+*.vspscc
+*.vsscc
+
+# Local environment settings
+appsettings.*.json
+
+# Node modules if any client tooling is added later
+node_modules/
+
+# Mac/Linux files
+.DS_Store
+Thumbs.db
